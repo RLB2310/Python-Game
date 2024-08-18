@@ -247,7 +247,7 @@ def textbox(string):
     clock.tick(60)
 
 
-# Creates a function with parameters rect which will be the player's (or enemie's) rect and whill be used to show the current tiles being hit #
+# Creates a function with parameters rect which will be the player's (or enemies') rect and whill be used to show the current tiles being hit #
 def collision_test(rect,tiles):
     hit_list = []
     for tile in tiles:
